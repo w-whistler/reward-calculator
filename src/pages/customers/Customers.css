@@ -1,0 +1,14 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.customer-id {
+  cursor: pointer;
+  color: #0000ff;
+  font-weight: 700;
+}
