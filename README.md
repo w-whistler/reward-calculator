@@ -14,6 +14,12 @@ If you start the server with `REACT_APP_USE_MOCK` as true, then in `index.js` fi
 
 ```http://localhost:8080```
 
+In mock server, I am providing following API routes:
+
+- GET `/customers`: Return array of customers with id, name
+- GET `/customers/:customerId`: Return customer by customer id. If not found return 404 error code.
+- GET `/customers/:customerId/transactions`: Return transactions by customer id.
+
 ## Available Scripts
 
 In the project directory, you can run:
