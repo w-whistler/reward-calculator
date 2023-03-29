@@ -8,6 +8,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Update environment variables as needed. To run mock server set `REACT_APP_USE_MOCK` as true in environment variables. You can create `.env` file by copying `.env.mock` file.
 3. Start the application by running `npm run start`.
 
+## How mock server runs
+
+If you start the server with `REACT_APP_USE_MOCK` as true, then in `index.js` file we start mock server on following route by default. This route can be updated in constants.js file by changing MOCK_SERVER_BASE_URL.
+
+```http://localhost:8080```
+
 ## Available Scripts
 
 In the project directory, you can run:
